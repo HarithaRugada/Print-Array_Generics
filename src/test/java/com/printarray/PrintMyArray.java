@@ -32,8 +32,8 @@ public class PrintMyArray
         Double[] doubleArray={1.5,2.8,5.4,76.5,98.9};
         Character[] characterArray={'W','E','L','C','O','M','E'};
 
-        PrintMyArray.toPrint(integerArray);
-        PrintMyArray.toPrint(doubleArray);
-        PrintMyArray.toPrint(characterArray);
+        toPrint(integerArray);
+        toPrint(doubleArray);
+        toPrint(characterArray);
     }
 }
